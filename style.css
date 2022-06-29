@@ -1,7 +1,8 @@
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 320px 200px;
   justify-content: center;
+  margin-top: 100px;
 }
 #board {
   border: 2px solid black;
@@ -18,20 +19,4 @@
   font-size: 16px;
   padding: 15px 30px;
   cursor: pointer;
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.btn-group {
-  display: flex;
-}
-
-.btn-play {
-  padding: 8px;
-  margin: 8px;
 }
