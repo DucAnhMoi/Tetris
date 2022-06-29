@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#board {
+  border: 2px solid black;
+}
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.score {
+}
+.play-btn {
+  background-color: greenyellow;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn-play {
+  padding: 8px;
+  margin: 8px;
+}
